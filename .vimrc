@@ -6,3 +6,4 @@ set colorcolumn=80
 autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/ containedin=ALL
 map <F7> :tabp<CR>
 map <F8> :tabn<CR>
+filetype indent on
